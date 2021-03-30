@@ -14,7 +14,7 @@ describe('functions', () => {
   describe('getInfo()', () => {
     it('should return info as string', async () => {
       // assert.strictEqual(await getInfo("fuwn"));
-      assert.strictEqual(typeof await getInfo("fuwn"), 'string')
+      assert.strictEqual(typeof await getInfo("fuwn"), 'string');
     });
   });
 });
