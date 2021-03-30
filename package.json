@@ -2,7 +2,7 @@
   "name": "worlds",
   "version": "1.0.0",
   "description": "A Node.js package for interacting with Worlds.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
 	  "url": "https://github.com/Whirlsplash/node-worlds.git",
 	  "type": "git"
@@ -51,6 +51,8 @@
 		"test": "mocha",
 		"test:coverage": "nyc npm test",
 		"test:coverage:report": "nyc report --reporter=html",
-		"test:watch": "mocha --watch"
-	}
+		"test:watch": "mocha --watch",
+		"build": "tsc -p ."
+	},
+	"types": "lib"
 }

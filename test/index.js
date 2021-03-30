@@ -1,8 +1,8 @@
 const assert = require('assert');
-const main = require('..');
+const { add } = require('../lib/index.js');
 
 describe('worlds', () => {
   it('returns with placeholder', () => {
-    assert.strictEqual(main(), 'worlds');
+    assert.strictEqual(add(1, 2), 3);
   });
 });

@@ -13,5 +13,9 @@
 	"plugins": ["prettier"],
 	"rules": {
 		"prettier/prettier": "error"
-	}
+	},
+	// https://stackoverflow.com/questions/42250257/disable-eslint-rules-for-folder
+	"ignorePatterns": [
+		"lib/*"
+	]
 }
